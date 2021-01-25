@@ -14,7 +14,7 @@ public class Hooks {
     @Before
     public void initTest()
     {
-        System.setProperty("webdriver.chrome.driver", "/Users/khanhtran/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/macpro2019/Downloads/chromedriver");
         System.setProperty("webdriver.gecko.driver", "/Users/khanhtran/Downloads/geckodriver");
         String browserName = System.getProperty("browser", "chrome");
         if(browserName.equalsIgnoreCase("chrome"))
