@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "html:target/report"},
+        plugin = {"pretty", "json:target/report"},
         features = "src/test/resources/firstcucumber/"
         //dryRun = true
     )
